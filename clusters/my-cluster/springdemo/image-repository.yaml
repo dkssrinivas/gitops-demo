@@ -7,5 +7,5 @@ metadata:
 spec:
   secretRef:
     name: regcred
-  image: smarsh-docker-snapshot-local.jfrog.io/gosmtp
+  image: smarsh-docker-snapshot-local.jfrog.io/springdemo
   interval: 1m0s

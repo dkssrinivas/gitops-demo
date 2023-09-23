@@ -15,14 +15,14 @@ spec:
   git:
     checkout:
       ref:
-        branch: master
+        branch: main
     commit:
       author:
         email: smarsh-fluxcd@users.noreply.smarsh.com
         name: smarsh-fluxcd
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
-      branch: master
+      branch: main
   interval: 1m00s
   sourceRef:
     kind: GitRepository

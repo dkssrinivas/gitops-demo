@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: springdemo
-          image: smarsh-docker-snapshot-local.jfrog.io/gosmtp:spring-demo
+          image: smarsh-docker-snapshot-local.jfrog.io/springdemo:spring-demo
 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
